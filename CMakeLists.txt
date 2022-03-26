@@ -7,6 +7,6 @@ FIND_PACKAGE(Boost 1.78 COMPONENTS log REQUIRED)
 
 SET(PROJECT_LIBS ${Boost_LIBRARIES} xcb xcb-util)
 
-ADD_EXECUTABLE(maybewm main.cpp window_manager.cpp window_manager.h)
+ADD_EXECUTABLE(maybewm main.cpp window_manager.cpp window_manager.h events.h)
 INCLUDE_DIRECTORIES(${Boost_INCLUDE_DIR})
 TARGET_LINK_LIBRARIES(maybewm ${PROJECT_LIBS})

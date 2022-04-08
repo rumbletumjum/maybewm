@@ -4,8 +4,8 @@
 #include <boost/log/trivial.hpp>
 #include <xcb/xcb_event.h>
 
-#include "events.h"
-#include "window_manager.h"
+#include "EventNames.h"
+#include "WindowManager.h"
 
 std::unique_ptr<WindowManager> WindowManager::Create()
 {

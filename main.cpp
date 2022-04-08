@@ -2,7 +2,7 @@
 
 #include <boost/log/trivial.hpp>
 
-#include "window_manager.h"
+#include "WindowManager.h"
 
 int main() {
     BOOST_LOG_TRIVIAL(info) << "test";
